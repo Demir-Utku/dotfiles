@@ -1,0 +1,29 @@
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[user]
+	name   = Utku Demir
+	email  = utkdmr1@gmail.com
+[credential]
+	helper = cache
+[alias]
+	a      = add
+	co     = checkout
+	c      = commit
+	f      = fetch
+	st     = status
+	unstg  = reset HEAD --
+	last   = log -1 HEAD
+	pl     = !git pull origin HEAD
+	psh    = !git push origin HEAD
+	ll     = log --oneline
+	cm     = commit -m
+	d      = diff
+	b      = branch
+	swb    = switch -c
+	br     = branch --format='%(HEAD) %(color:yellow)%(refname:short)%(color:reset) - %(contents:subject) %(color:green)(%(committerdate:relative)) [%(authorname)]' --sort=-committerdate
+	undo   = reset HEAD~1 --mixed
+[init]
+	defaultBranch = master
+[color]
+	ui = auto

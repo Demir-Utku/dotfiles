@@ -1,0 +1,117 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontSize": 20,
+    "editor.fontFamily": "'Fira Code'",
+    "editor.fontLigatures": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.guides.bracketPairs": true,
+    "editor.tabCompletion": "on",
+    "editor.wordWrapColumn": 120,
+    "editor.formatOnSave": true,
+    "editor.minimap.enabled": false,
+    "workbench.preferredDarkColorTheme": "One Dark Pro",
+    "terminal.external.linuxExec": "gnome-terminal",
+    "gitlens.defaultGravatarsStyle": "identicon",
+    "eslint.alwaysShowStatus": true,
+    "eslint.format.enable": true,
+    "eslint.lintTask.enable": true,
+    "eslint.run": "onSave",
+    "material-icon-theme.activeIconPack": "react_redux",
+    "npm.packageManager": "npm",
+    "scssFormatter.singleQuote": true,
+    "javascript.format.semicolons": "insert",
+    "javascript.inlayHints.parameterNames.enabled": "all",
+    "javascript.inlayHints.variableTypes.enabled": true,
+    "javascript.preferences.quoteStyle": "single",
+    "typescript.format.semicolons": "insert",
+    "stylelint.enable": true,
+    "stylelint.validate": [
+        "css",
+        "scss"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.stylelint": true
+    },
+    "explorer.confirmDelete": false,
+    "[scss]": {
+        "editor.defaultFormatter": "sibiraj-s.vscode-scss-formatter"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.linkedEditing": true,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "files.associations": {
+        "*.tsx": "typescriptreact"
+    },
+    "editor.suggestSelection": "first",
+    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.fontSize": 18,
+    "sonarlint.rules": {
+        "typescript:S125": {
+            "level": "off"
+        },
+        "typescript:S3358": {
+            "level": "off"
+        },
+        "typescript:S6353": {
+            "level": "off"
+        }
+    },
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "workbench.colorTheme": "One Dark Pro",
+    "html.format.enable": true,
+    "javascript.format.enable": true,
+    "typescript.format.enable": true,
+    "json.format.enable": true,
+    "scss.suggestVariables": true,
+    "scss.completion.completePropertyWithSemicolon": true,
+    "scss.completion.triggerPropertyValueCompletion": true,
+    "scss.hover.documentation": true,
+    "scss.hover.references": true,
+    "scss.scanImportedFiles": true,
+    "scss.suggestFunctions": true,
+    "scss.suggestMixins": true,
+    "sass.format.enabled": true,
+    "explorer.confirmDragAndDrop": false,
+    "files.autoSave": "afterDelay",
+    "extensions.ignoreRecommendations": true,
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "liveServer.settings.donotShowInfoMsg": true,
+    "outline.showTypeParameters": false,
+    "reactSnippets.settings.typescriptPropsStatePrefix": "interface",
+    "workbench.startupEditor": "none",
+    "editor.inlineSuggest.enabled": true,
+    "github.copilot.enable": {
+        "*": true,
+        "yaml": false,
+        "plaintext": false,
+        "markdown": true
+    }
+}
